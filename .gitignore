@@ -1,0 +1,45 @@
+# 🔐 Secrets
+.env
+.env.*
+!.env.example
+
+# 🗄️ Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# 📁 FIGO runtime data
+files/
+tmp_music/
+clones/
+
+# 📜 Logs
+*.log
+logs/
+
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# 🧪 Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 🖥️ OS generated files
+.DS_Store
+Thumbs.db
+
+# 💻 IDE / editor
+.vscode/
+.idea/
+
+# 📦 Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
